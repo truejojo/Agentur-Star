@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Kontakt</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container nav-wrapper">
+        <div class="logo">
+          <a href="../index.html">
+            <img src="../images/logo.png" alt="Logo" />
+          </a>
+        </div>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li>
+              <a class="nav__link" href="../index.html">Startseite</a>
+            </li>
+            <li>
+              <a class="nav__link" href="./leistungen.html">Leistungen</a>
+            </li>
+            <li>
+              <a class="nav__link" href="./galerie.html">Bidergalerie</a>
+            </li>
+            <li>
+              <a class="nav__link" href="./team.html">Teammitglieder</a>
+            </li>
+            <li>
+              <a class="nav__link" href="./video.html">Werbevideo</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h1>Kontakt</h1>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="vorname">Vorname:*</label>
+            <input
+              type="text"
+              id="vorname"
+              name="vorname"
+              placeholder="Vorname eintragen"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="nachname">Nachname:*</label>
+            <input
+              type="text"
+              id="nachname"
+              name="nachname"
+              placeholder="Nachname eintragen"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Adresse:*</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="beispiel@beispiel.de"
+            />
+          </div>
+          <div class="form-group">
+            <label for="telephone">Telephone:</label>
+            <input type="text" id="telephone" name="telephone" />
+          </div>
+          <div class="form-group">
+            <label for="message">Nachricht:</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Bitte Nachricht eintragen"
+              required
+            ></textarea>
+          </div>
+          <div class="button-wrapper">
+            <button type="submit" class="form-button">Senden!</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li>
+              <a class="nav__link" href="../index.html"
+                >&copy; webagenturStar GmbH</a
+              >
+            </li>
+            <li>
+              <a class="nav__link" href="./impressum.html">Impressum</a>
+            </li>
+            <li>
+              <a class="nav__link active" href="./contact.html">Kontakt</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#header">nach oben</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
