@@ -4,35 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/index.js" defer></script>
     <title>Teammitglieder</title>
   </head>
   <body>
-    <header id="header">
-      <div class="container nav-wrapper">
-        <div class="logo">
-          <a href="../index.html">
-            <img src="../images/logo.png" alt="Logo" />
-          </a>
+    <header id="header" class="main-site-section">
+      <div class="container">
+        <div class="nav-wrapper">
+          <div class="logo">
+            <a href="../index.html">
+              <img class="logo__img" src="../images/logo.png" alt="Logo" />
+            </a>
+          </div>
+          <div class="menu-buttons">
+            <span class="icon open-icon">Menü</span>
+            <span class="icon close-icon hide">X</span>
+          </div>
+          <nav class="nav header-nav hide">
+            <ul class="nav__list header-nav__list">
+              <li>
+                <a class="nav__link" href="../index.html">Startseite</a>
+              </li>
+              <li>
+                <a class="nav__link" href="./leistungen.html">Leistungen</a>
+              </li>
+              <li>
+                <a class="nav__link" href="./galerie.html">Bidergalerie</a>
+              </li>
+              <li>
+                <a class="nav__link active" href="./team.html"
+                  >Teammitglieder</a
+                >
+              </li>
+              <li>
+                <a class="nav__link" href="./video.html">Werbevideo</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <nav class="nav">
-          <ul class="nav__list">
-            <li>
-              <a class="nav__link" href="../index.html">Startseite</a>
-            </li>
-            <li>
-              <a class="nav__link" href="./leistungen.html">Leistungen</a>
-            </li>
-            <li>
-              <a class="nav__link" href="./galerie.html">Bidergalerie</a>
-            </li>
-            <li>
-              <a class="nav__link active" href="./team.html">Teammitglieder</a>
-            </li>
-            <li>
-              <a class="nav__link" href="./video.html">Werbevideo</a>
-            </li>
-          </ul>
-        </nav>
       </div>
     </header>
     <main>
@@ -201,25 +210,22 @@
         </table>
       </div>
     </main>
-    <footer>
+    <footer class="main-site-section footer">
       <div class="container">
         <nav class="nav">
-          <ul class="nav__list">
-            <li>
-              <a class="nav__link" href="index.html"
+          <ul class="nav__list footer-nav__list">
+            <li class="footer-nav__list-item-start">
+              <a class="nav__link" href="../index.html"
                 >&copy; webagenturStar GmbH</a
               >
-              <span class="nav__span">|</span>
             </li>
-            <li>
-              <a class="nav__link" href="impressum.html">Impressum</a>
-              <span class="nav__span">|</span>
+            <li class="footer-nav__list-item-impressum">
+              <a class="nav__link" href="./impressum.html">Impressum</a>
             </li>
-            <li>
-              <a class="nav__link" href="contact.html">Kontakt</a>
-              <span class="nav__span">|</span>
+            <li class="footer-nav__list-item-contact">
+              <a class="nav__link" href="./contact.html">Kontakt</a>
             </li>
-            <li>
+            <li class="footer-nav__list-item-top">
               <a class="nav__link" href="#header">nach oben</a>
             </li>
           </ul>
