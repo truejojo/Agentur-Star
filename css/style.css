@@ -17,7 +17,8 @@
   /* --breakpoint-large: 1200px; */
 }
 
-/* Global Styles */
+/* Global Styles 
+**************************************/
 * {
   box-sizing: border-box;
 }
@@ -127,7 +128,8 @@ a {
   display: none;
 }
 
-/* Navigation */
+/* Navigation Header
+**************************************/
 .nav__list {
   list-style: none;
   margin: 0;
@@ -141,7 +143,6 @@ a {
   padding-block: 0.5rem;
 }
 
-/* Navigation Header*/
 .nav-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -195,7 +196,8 @@ a {
   }
 }
 
-/* Navigation Footer */
+/* Navigation Footer 
+***************************************/
 .footer {
   padding-block: 3rem;
 }
@@ -256,7 +258,8 @@ a {
   color: var(--secondary-color);
 }
 
-/* Leistungen */
+/* Leistungen 
+*******************************************/
 .leistungen__list {
   list-style-type: none;
   display: flex;
@@ -282,29 +285,29 @@ a {
   }
   .leistungen__list--item {
     /* width: calc(50% - 10px); */
-    padding: .5em 1.25em;  
+    padding: 0.5em 1.25em;
   }
+}
 
-/* Galerie */
+/* Galerie 
+*****/
 .galerie {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 10px;
   margin-bottom: 2.5rem;
 }
+.img-wrapper {
+}
 .galerie-img {
-  width: 100%;
-  height: auto; /* 250px; */
+  max-width: 100%;
+  height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Teammitglieder */
-/* .table-wrapper {
-  width: 100%;
-  overflow-x: scroll;
-} */
-
+/* Teammitglieder 
+******************************************/
 table {
   width: 100%;
   border-collapse: collapse;
