@@ -48,6 +48,7 @@
       <div class="container">
         <h1>Teammitglieder</h1>
         <!-- Backend -->
+        <!-- <div class="table-wrapper"> -->
         <table>
           <caption>
             Backend-Team
@@ -57,36 +58,34 @@
               <th>Teammitglieder</th>
               <th>Spezialgebiet</th>
               <th>Telefon</th>
-              <th>E-Mail</th>
+              <th>E-e-Mail</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Max Mustermann</td>
-              <td>NodeJS</td>
-              <td>0123 456789</td>
-              <td>max@mustermann.com</td>
+              <td data-cell="name">Max Mustermann</td>
+              <td data-cell="skill">NodeJS</td>
+              <td data-cell="phone">0123 456789</td>
+              <td data-cell="e-mail">max@mustermann.com</td>
             </tr>
             <tr>
-              <td>Max Musterfrau</td>
-              <td>PHP</td>
-              <td>0123 123456789</td>
-              <td>max@musterfrau.de</td>
+              <td data-cell="name">Max Musterfrau</td>
+              <td data-cell="skill">PHP</td>
+              <td data-cell="phone">0123 123456789</td>
+              <td data-cell="e-mail">max@musterfrau.de</td>
             </tr>
             <tr>
-              <td>Fred Grün</td>
-              <td>SQL</td>
-              <td>0123 456789</td>
-              <td>fred@gruenks.com</td>
+              <td data-cell="name">Fred Grün</td>
+              <td data-cell="skill">SQL</td>
+              <td data-cell="phone">0123 456789</td>
+              <td data-cell="e-mail">fred@gruenks.com</td>
             </tr>
-          </tbody>
-          <tfoot>
             <tr>
               <td colspan="4">
                 Telefonisch erreichbar zwischen 9:00-17:00 Uhr
               </td>
             </tr>
-          </tfoot>
+          </tbody>
         </table>
 
         <!-- Frontend -->
@@ -94,39 +93,33 @@
           <caption>
             Frontend-Team
           </caption>
-          <thead>
-            <tr>
-              <th>Teammitglieder</th>
-              <th>Spezialgebiet</th>
-              <th>Telefon</th>
-              <th>E-Mail</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Lisa Sommer</td>
-              <td>React</td>
-              <td>0157 9876543</td>
-              <td>l.sommer@frontend-dev.de</td>
-            </tr>
-            <tr>
-              <td>Tom Weber</td>
-              <td>Vue.js</td>
-              <td>0157 1122334</td>
-              <td>tom.weber@webstudio.net</td>
-            </tr>
-            <tr>
-              <td>Anna Berg</td>
-              <td>Angular</td>
-              <td>0157 5566778</td>
-              <td>berg.anna@frontendhub.org</td>
-            </tr>
-          </tbody>
-          <tfoot>
-            <tr>
-              <td colspan="4">Support-Zeiten: 10:00-18:00 Uhr</td>
-            </tr>
-          </tfoot>
+          <tr>
+            <th>Teammitglieder</th>
+            <th>Spezialgebiet</th>
+            <th>Telefon</th>
+            <th>E-e-Mail</th>
+          </tr>
+          <tr>
+            <td data-cell="name">Lisa Sommer</td>
+            <td data-cell="skill">React</td>
+            <td data-cell="phone">0157 9876543</td>
+            <td data-cell="e-mail">l.sommer@frontend-dev.de</td>
+          </tr>
+          <tr>
+            <td data-cell="name">Tom Weber</td>
+            <td data-cell="skill">Vue.js</td>
+            <td data-cell="phone">0157 1122334</td>
+            <td data-cell="e-mail">tom.weber@webstudio.net</td>
+          </tr>
+          <tr>
+            <td data-cell="name">Anna Berg</td>
+            <td data-cell="skill">Angular</td>
+            <td data-cell="phone">0157 5566778</td>
+            <td data-cell="e-mail">berg.anna@frontendhub.org</td>
+          </tr>
+          <tr>
+            <td colspan="4">Support-Zeiten: 10:00-18:00 Uhr</td>
+          </tr>
         </table>
 
         <!-- Design & Fotografie Team-->
@@ -134,39 +127,33 @@
           <caption>
             Design & Fotografie Team
           </caption>
-          <thead>
-            <tr>
-              <th>Teammitglieder</th>
-              <th>Spezialgebiet</th>
-              <th>Telefon</th>
-              <th>E-Mail</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Clara Roth</td>
-              <td>UI/UX Design</td>
-              <td>0160 4433221</td>
-              <td>clara@creative-studio.de</td>
-            </tr>
-            <tr>
-              <td>Finn Jäger</td>
-              <td>Fotobearbeitung</td>
-              <td>0160 7788990</td>
-              <td>f.jaeger@fotopixel.com</td>
-            </tr>
-            <tr>
-              <td>Marie Koch</td>
-              <td>Illustration</td>
-              <td>0160 1234567</td>
-              <td>m.koch@art-studio.org</td>
-            </tr>
-          </tbody>
-          <tfoot>
-            <tr>
-              <td colspan="4">Erreichbar Mo-Fr: 8:00-16:00 Uhr</td>
-            </tr>
-          </tfoot>
+          <tr>
+            <th>Teammitglieder</th>
+            <th>Spezialgebiet</th>
+            <th>Telefon</th>
+            <th>E-e-Mail</th>
+          </tr>
+          <tr>
+            <td data-cell="name">Clara Roth</td>
+            <td data-cell="skill">UI/UX Design</td>
+            <td data-cell="phone">0160 4433221</td>
+            <td data-cell="e-mail">clara@creative-studio.de</td>
+          </tr>
+          <tr>
+            <td data-cell="name">Finn Jäger</td>
+            <td data-cell="skill">Fotobearbeitung</td>
+            <td data-cell="phone">0160 7788990</td>
+            <td data-cell="e-mail">f.jaeger@fotopixel.com</td>
+          </tr>
+          <tr>
+            <td data-cell="name">Marie Koch</td>
+            <td data-cell="skill">Illustration</td>
+            <td data-cell="phone">0160 1234567</td>
+            <td data-cell="e-mail">m.koch@art-studio.org</td>
+          </tr>
+          <tr>
+            <td colspan="4">Erreichbar Mo-Fr: 8:00-16:00 Uhr</td>
+          </tr>
         </table>
 
         <!-- E-commerce & SEO team -->
@@ -174,39 +161,33 @@
           <caption>
             E-Commerce & SEO Team
           </caption>
-          <thead>
-            <tr>
-              <th>Teammitglieder</th>
-              <th>Spezialgebiet</th>
-              <th>Telefon</th>
-              <th>E-Mail</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Paul Schneider</td>
-              <td>Shopware</td>
-              <td>0176 3344556</td>
-              <td>paul@ecom-consult.de</td>
-            </tr>
-            <tr>
-              <td>Sarah Klein</td>
-              <td>SEO-Optimierung</td>
-              <td>0176 6677889</td>
-              <td>klein@seo-experts.net</td>
-            </tr>
-            <tr>
-              <td>Jan Wolf</td>
-              <td>Google Ads</td>
-              <td>0176 9900112</td>
-              <td>wolf.jan@digital-masters.com</td>
-            </tr>
-          </tbody>
-          <tfoot>
-            <tr>
-              <td colspan="4">Beratungstermine nach Vereinbarung</td>
-            </tr>
-          </tfoot>
+          <tr>
+            <th>Teammitglieder</th>
+            <th>Spezialgebiet</th>
+            <th>Telefon</th>
+            <th>E-e-Mail</th>
+          </tr>
+          <tr>
+            <td data-cell="name">Paul Schneider</td>
+            <td data-cell="skill">Shopware</td>
+            <td data-cell="phone">0176 3344556</td>
+            <td data-cell="e-mail">paul@ecom-consult.de</td>
+          </tr>
+          <tr>
+            <td data-cell="name">Sarah Klein</td>
+            <td data-cell="skill">SEO-Optimierung</td>
+            <td data-cell="phone">0176 6677889</td>
+            <td data-cell="e-mail">klein@seo-experts.net</td>
+          </tr>
+          <tr>
+            <td data-cell="name">Jan Wolf</td>
+            <td data-cell="skill">Google Ads</td>
+            <td data-cell="phone">0176 9900112</td>
+            <td data-cell="e-mail">wolf.jan@digital-masters.com</td>
+          </tr>
+          <tr>
+            <td colspan="4">Beratungstermine nach Vereinbarung</td>
+          </tr>
         </table>
       </div>
     </main>
