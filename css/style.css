@@ -50,6 +50,14 @@ a {
   text-decoration: none;
 }
 
+.max-chars {
+  max-width: 80ch;
+}
+
+.href-link {
+  margin-bottom: 5rem;
+}
+
 /* utils classes */
 .header {
   margin-bottom: 2.5rem;
@@ -92,6 +100,11 @@ a {
 
 .container {
   max-width: 1200px;
+  margin: 0 auto;
+  padding-inline: 1.5625rem;
+}
+.container--small {
+  max-width: 1080px;
   margin: 0 auto;
   padding-inline: 1.5625rem;
 }
@@ -250,6 +263,7 @@ a {
   flex-direction: column;
   gap: 10px;
   max-width: 300px;
+  padding: 0;
 }
 .leistungen__list--item {
   background-color: #ffffff;
@@ -259,11 +273,24 @@ a {
   padding-block: 5px;
 }
 
+@media screen and (min-width: 780px) {
+  .leistungen__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 100%;
+  }
+  .leistungen__list--item {
+    /* width: calc(50% - 10px); */
+    padding: .5em 1.25em;  
+  }
+
 /* Galerie */
 .galerie {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 10px;
+  margin-bottom: 2.5rem;
 }
 .galerie-img {
   width: 100%;
