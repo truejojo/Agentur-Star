@@ -346,7 +346,7 @@ tr:nth-of-type(2n) {
 
   td {
     display: grid;
-    grid-template-columns: 12ch auto;
+    grid-template-columns: 18ch auto;
   }
 
   td::before {
