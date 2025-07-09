@@ -25,6 +25,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-y: scroll;
 }
 
 body {
@@ -290,7 +291,7 @@ a {
 }
 
 /* Galerie 
-*****/
+*******************************************/
 .galerie {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -360,12 +361,16 @@ tr:nth-of-type(2n) {
   }
 }
 
-/* Impressum */
-section {
-  margin-bottom: 50px;
+/* Impressum 
+*******************************************/
+.impressum {
+  display: grid;
+  gap: 2rem;
+  margin-bottom: 5rem;
 }
 
-/* Kontakt */
+/* Kontakt 
+*******************************************/
 .contact-form {
   display: grid;
   gap: 1rem;
