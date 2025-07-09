@@ -464,6 +464,9 @@ tr:nth-of-type(2n) {
 
 /* Video 
 **************************************/
+.video {
+  margin-bottom: 5rem;
+}
 .video-wrapper {
   width: 100%;
   max-width: 980px;
